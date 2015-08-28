@@ -15,7 +15,7 @@ class StarCatalog:
             if(starFile==None):
                 raise ValueError
         except ValueError:
-            print("StarCatalog.loadCatalog:  ")
+            print("")
                 
         try:
             if(os.path.isfile(starFile)):
@@ -24,7 +24,7 @@ class StarCatalog:
                 raise ValueError
         
         except ValueError:
-            print("StarCatalog.loadCatalog:")
+            print("")
             
         for stars in content:
             line = re.split("\s+", stars)
