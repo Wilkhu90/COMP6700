@@ -5,7 +5,7 @@ Created on Aug 26, 2015
 '''
 import os, re
 
-class StarCatalog:
+class StarCatalog(object):
 
     def __init__(self):
         self.catalog = []
@@ -15,7 +15,7 @@ class StarCatalog:
             if(starFile==None):
                 raise ValueError
         except ValueError:
-            print("StarCatalog.loadCatalog:  ")
+            print("StarCatalog.loadCatalog:  An input text file is required to load stars.")
                 
         try:
             if(os.path.isfile(starFile)):
@@ -24,14 +24,20 @@ class StarCatalog:
                 raise ValueError
         
         except ValueError:
-            print("StarCatalog.loadCatalog:")
+            print("StarCatalog.loadCatalog:  No such file exist. Please check whether the name is correct.")
             
         for stars in content:
-            line = re.split("\s+", stars)
+            line = re.split('\s+', stars)
             
             if(len(line) != 4):
                 line.pop(4)
+            for num in line:
+                if not num.isdigit():
+                    ex = ValueError("StarCatalog.loadCatalog:  File contains invalid data. Data must contain numbers.")
+                    raise ex
+            
             self.catalog.append(line)
+            
         return len(self.catalog)    
                                                    
                     
@@ -48,4 +54,7 @@ class StarCatalog:
                      declinationCenterPoint=None,
                      fieldOfView=None):
         pass
+    
+    def getCurrentCount(self):
+        return len(self.catalog)
         
