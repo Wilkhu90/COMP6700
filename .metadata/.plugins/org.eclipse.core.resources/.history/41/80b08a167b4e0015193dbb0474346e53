@@ -1,0 +1,14 @@
+import CA01.prod.StarCatalog as StarCatalog
+
+stars = StarCatalog.StarCatalog()
+
+starCount = stars.loadCatalog(starFile="SaoChart.txt")
+starCount = stars.loadCatalog(starFile=123)
+print starCount
+starsDeleted = stars.emptyCatalog()
+print starsDeleted
+noOfStarsNow = stars.getCurrentCount()
+print noOfStarsNow
+starCount = stars.loadCatalog(starFile="SaoChart.txt")
+print starCount
+print stars.getStar(10954)

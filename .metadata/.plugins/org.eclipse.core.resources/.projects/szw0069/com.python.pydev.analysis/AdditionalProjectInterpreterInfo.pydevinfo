@@ -1,0 +1,29 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/sum/COMP6700/.metadata/.plugins/org.eclipse.core.resources/.projects/szw0069/com.python.pydev.analysis/v2_indexcache
+CA01.test.__init__|1440864296000000000|/home/sum/COMP6700/szw0069/CA01/test/__init__.py
+CA01.prod.__init__|1440864296000000000|/home/sum/COMP6700/szw0069/CA01/prod/__init__.py
+CA01.prod.StarCatalog|1440872389000000000|/home/sum/COMP6700/szw0069/CA01/prod/StarCatalog.py
+CA01.sandbox.__init__|1440864296000000000|/home/sum/COMP6700/szw0069/CA01/sandbox/__init__.py
+CA01.__init__|1440864296000000000|/home/sum/COMP6700/szw0069/CA01/__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+3=StarCatalog.emptyCatalog
+1=CA01.prod.StarCatalog
+4=StarCatalog.__init__
+2=StarCatalog
+-- END DICTIONARY
+-- START TREE 1
+2
+noo|0|
+sta|1|StarCatalog!9@
+-- END TREE
+-- START TREE 2
+5
+__i|1|__init__!2&10@
+cat|2|catalog!3&11@catalog!4&11@
+emp|1|emptyCatalog!2&10@
+get|4|getStar!2&10@getCurrentCount!2&10@getMagnitude!2&10@getStarCount!2&10@
+loa|1|loadCatalog!2&10@
+-- END TREE

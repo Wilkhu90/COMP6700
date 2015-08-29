@@ -3,48 +3,44 @@ Created on Aug 26, 2015
 
 @author: szw0069
 '''
-import os, re
+import os
+import re
 
 class StarCatalog(object):
 
     def __init__(self):
-        self.catalog = []
+        self.catalog = {}
     
     def loadCatalog(self, starFile=None):
-        try:
-            if(starFile==None):
-                raise ValueError
-        except ValueError:
-            print("StarCatalog.loadCatalog:  An input text file is required to load stars.")
-                
-        try:
-            if(os.path.isfile(starFile)):
-                content = open(starFile, 'r')
-            else:
-                raise ValueError
-        
-        except ValueError:
-            print("StarCatalog.loadCatalog:  No such file exist. Please check whether the name is correct.")
+        if(starFile==None)|(type(starFile) is not str):
+            raise ValueError("StarCatalog.loadCatalog:  An input text file is required to load stars.")
             
+        if(os.path.isfile(starFile)):
+            content = open(starFile, 'r')
+        else:
+            raise ValueError("StarCatalog.loadCatalog:  No such file exist. Please check whether the name is correct.")
+         
         for stars in content:
             line = re.split('\s+', stars)
-            
             if(len(line) != 4):
                 line.pop(4)
             for num in line:
-                if not num.isdigit():
-                    ex = ValueError("StarCatalog.loadCatalog:  File contains invalid data. Data must contain numbers.")
-                    raise ex
+                try:
+                    if float(num):
+                        pass
+                except ValueError:
+                    raise ValueError("StarCatalog.loadCatalog:  File contains invalid data. Data must contain numbers.")
             
-            self.catalog.append(line)
+            if int(line[0]) in self.catalog.keys():
+                raise ValueError("StarCatalog.loadCatalog:  An attempt to add a duplicate star.")
+            else:
+                self.catalog[int(line[0])]= [float(x) for x in line[1:]]
             
-        return len(self.catalog)    
-                                                   
-                    
+        return len(self.catalog)           
     
     def emptyCatalog(self):
         Length = len(self.catalog)
-        self.catalog = []
+        self.catalog = {}
         return Length
     
     def getStarCount(self, lowerMagnitude=None, upperMagnitude=None):
@@ -57,4 +53,7 @@ class StarCatalog(object):
     
     def getCurrentCount(self):
         return len(self.catalog)
+    
+    def getStar(self, star):
+        return self.catalog.get(star)
         
