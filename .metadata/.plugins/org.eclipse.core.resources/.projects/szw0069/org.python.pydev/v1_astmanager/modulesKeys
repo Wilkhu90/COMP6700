@@ -1,7 +1,0 @@
-MODULES_MANAGER_V2
-CA01.__init__|/home/sum/COMP6700/szw0069/CA01/__init__.py
-CA01.prod.StarCatalog|/home/sum/COMP6700/szw0069/CA01/prod/StarCatalog.py
-CA01.prod.__init__|/home/sum/COMP6700/szw0069/CA01/prod/__init__.py
-CA01.sandbox.__init__|/home/sum/COMP6700/szw0069/CA01/sandbox/__init__.py
-CA01.test.StarCatalogTest|/home/sum/COMP6700/szw0069/CA01/test/StarCatalogTest.py
-CA01.test.__init__|/home/sum/COMP6700/szw0069/CA01/test/__init__.py
