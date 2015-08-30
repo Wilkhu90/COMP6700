@@ -5,6 +5,7 @@ Created on Aug 26, 2015
 '''
 import os
 import re
+import math
 
 class StarCatalog(object):
 
@@ -44,12 +45,65 @@ class StarCatalog(object):
         return Length
     
     def getStarCount(self, lowerMagnitude=None, upperMagnitude=None):
-        return self.count
+        try:
+            if(self.catalog == None):
+                raise ValueError
+        except  ValueError:
+            print("StarCatalog.getStarCount:  Must load a star catalog first.")
+            
+        if (lowerMagnitude == None):
+            lowerMagnitude = min(data[0] for data in self.catalog.values())
+            
+        if (upperMagnitude == None):
+            upperMagnitude = max(data[0] for data in self.catalog.values())
+        
+        if (isinstance(lowerMagnitude, (float, int)) == False) | (isinstance(upperMagnitude, (float, int)) == False) or upperMagnitude<0:
+            raise ValueError("StarCatalog.getStarCount:  Please Input an appropriate numeric value.")
+        
+        if (lowerMagnitude>upperMagnitude):
+            raise ValueError("StarCatalog.getStarCount:  Lower magnitude is higher than Upper Magnitude.")
+        
+        
+        count = 0
+        for catalog in self.catalog.values():
+            if(catalog[0] >= lowerMagnitude and catalog[0] <= upperMagnitude):
+                count = count + 1      
+        return count
     
     def getMagnitude(self, rightAscentionCenterPoint=None,
                      declinationCenterPoint=None,
                      fieldOfView=None):
-        pass
+        try:
+            if(self.catalog == None):
+                raise ValueError
+        except ValueError:
+            print("StarCatalog.getMagnitude:  Catalog is empty.")
+        
+        validStars = []
+        
+        if(rightAscentionCenterPoint < 0 or rightAscentionCenterPoint > 2 * math.pi):
+            raise ValueError("StarCatalog.getMagnitude:  rightAscentionCenterPoint isn't in the proper range of 0 to 2pi")
+        
+        if(declinationCenterPoint < -math.pi/2 or declinationCenterPoint > math.pi/2):
+            raise ValueError("StarCatalog.getMagnitude:  declinationCenterPoint isn't in the proper range of -pi/2 to pi/2")
+        
+        if(fieldOfView < 0 or fieldOfView > 2 * math.pi):
+            raise ValueError("StarCatalog.getMagnitude:  fieldOfView isn't in the proper range of 0 to 2pi")
+        
+        fov = float(fieldOfView/2)
+        for catalog in self.catalog.values():
+            ra = float(catalog[1])
+            dec = float(catalog[2])
+            
+            if(((ra >= (rightAscentionCenterPoint - fov)) and (ra <= (rightAscentionCenterPoint + fov))) 
+               and ((dec >= (declinationCenterPoint - fov)) and (dec <= (declinationCenterPoint + fov)))):
+                validStars.append(catalog[0])
+        
+        validStars.sort()
+        if(len(validStars) == 0):
+            return None
+        
+        return validStars[0]
     
     def getCurrentCount(self):
         return len(self.catalog)
