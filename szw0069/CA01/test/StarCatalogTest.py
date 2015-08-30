@@ -44,7 +44,7 @@ print diagnosticString2
 # -------------- getMagnitude -----------------------------
 # Get the magnitude of the brightest star within a square area that is
 # 0.017453 radians by 0.017453 radians (meaning, a 1-degree field of view)
-brightestStar = stars.getMagnitude(4.712389, 0.00027227, 0.3)
+brightestStar = stars.getMagnitude(4.71239554, 0.9452005, 0.1)
 print brightestStar
 # Attempt to determine the brightest star in a field of view
 # using an invalid parameter
