@@ -15,7 +15,6 @@ class StarCatalog(object):
     def loadCatalog(self, starFile=None):
         if(starFile==None)|(type(starFile) is not str):
             raise ValueError("StarCatalog.loadCatalog:  An input text file is required to load stars.")
-            
         if(os.path.isfile(starFile)):
             content = open(starFile, 'r')
         else:
@@ -36,7 +35,7 @@ class StarCatalog(object):
                 raise ValueError("StarCatalog.loadCatalog:  An attempt to add a duplicate star.")
             else:
                 self.catalog[int(line[0])]= [float(x) for x in line[1:]]
-            
+        content.close()    
         return len(self.catalog)           
     
     def emptyCatalog(self):
