@@ -56,7 +56,7 @@ class StarCatalog(object):
         if (upperMagnitude == None):
             upperMagnitude = max(data[0] for data in self.catalog.values())
         
-        if (isinstance(lowerMagnitude, (float, int)) == False) | (isinstance(upperMagnitude, (float, int)) == False) or upperMagnitude<0:
+        if (isinstance(lowerMagnitude, (float, int)) == False) | (isinstance(upperMagnitude, (float, int)) == False):
             raise ValueError("StarCatalog.getStarCount:  Please Input an appropriate numeric value.")
         
         if (lowerMagnitude>upperMagnitude):
