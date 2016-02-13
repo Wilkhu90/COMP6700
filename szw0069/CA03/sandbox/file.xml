@@ -1,0 +1,5 @@
+<frame rate="1000000">
+  <device>Device</device>
+  <device>StarSensor</device>
+  <device>Device</device>
+</frame>

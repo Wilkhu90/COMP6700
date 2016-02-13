@@ -1,0 +1,440 @@
+0\tController\tStarSensor\tserviceRequest
+40\tStarSensor\tController\t0014
+40\tController\tDevice\tserviceRequest
+80\tDevice\tController\t06ab
+80\tController\tDevice\tserviceRequest
+120\tDevice\tController\t3c54
+120\tController\tStarSensor\tserviceRequest
+160\tStarSensor\tController\t0014
+160\tController\tDevice\tserviceRequest
+200\tDevice\tController\t0000
+200\tController\tStarSensor\tserviceRequest
+240\tStarSensor\tController\t0014
+240\tController\tDevice\tserviceRequest
+280\tDevice\tController\t0000
+280\tController\tDevice\tserviceRequest
+320\tDevice\tController\te566
+320\tController\tStarSensor\tserviceRequest
+360\tStarSensor\tController\t0014
+360\tController\tDevice\tserviceRequest
+400\tDevice\tController\tb4e6
+400\tController\tStarSensor\tserviceRequest
+440\tStarSensor\tController\t0014
+440\tController\tDevice\tserviceRequest
+480\tDevice\tController\t3835
+480\tController\tDevice\tserviceRequest
+520\tDevice\tController\t3f39
+520\tController\tStarSensor\tserviceRequest
+560\tStarSensor\tController\t0014
+560\tController\tDevice\tserviceRequest
+600\tDevice\tController\t0000
+600\tController\tStarSensor\tserviceRequest
+640\tStarSensor\tController\t0014
+640\tController\tDevice\tserviceRequest
+680\tDevice\tController\t0000
+680\tController\tDevice\tserviceRequest
+720\tDevice\tController\t1b08
+720\tController\tStarSensor\tserviceRequest
+760\tStarSensor\tController\t0014
+760\tController\tDevice\tserviceRequest
+800\tDevice\tController\t9dae
+800\tController\tStarSensor\tserviceRequest
+840\tStarSensor\tController\t0014
+840\tController\tDevice\tserviceRequest
+880\tDevice\tController\t0000
+880\tController\tDevice\tserviceRequest
+920\tDevice\tController\t0000
+920\tController\tStarSensor\tserviceRequest
+960\tStarSensor\tController\t0014
+960\tController\tDevice\tserviceRequest
+1000\tDevice\tController\t0000
+0\tController\tStarSensor\tserviceRequest
+40\tStarSensor\tController\t0014
+40\tController\tDevice\tserviceRequest
+80\tDevice\tController\tbcdb
+80\tController\tDevice\tserviceRequest
+120\tDevice\tController\t1793
+120\tController\tStarSensor\tserviceRequest
+160\tStarSensor\tController\t0014
+160\tController\tDevice\tserviceRequest
+200\tDevice\tController\td991
+200\tController\tStarSensor\tserviceRequest
+240\tStarSensor\tController\t0014
+240\tController\tDevice\tserviceRequest
+280\tDevice\tController\t76d9
+280\tController\tDevice\tserviceRequest
+320\tDevice\tController\t0000
+320\tController\tStarSensor\tserviceRequest
+360\tStarSensor\tController\t0014
+360\tController\tDevice\tserviceRequest
+400\tDevice\tController\t08d3
+400\tController\tStarSensor\tserviceRequest
+440\tStarSensor\tController\t0014
+440\tController\tDevice\tserviceRequest
+480\tDevice\tController\t0000
+480\tController\tDevice\tserviceRequest
+520\tDevice\tController\ta2e5
+520\tController\tStarSensor\tserviceRequest
+560\tStarSensor\tController\t0014
+560\tController\tDevice\tserviceRequest
+600\tDevice\tController\t3e2b
+600\tController\tStarSensor\tserviceRequest
+640\tStarSensor\tController\t0014
+640\tController\tDevice\tserviceRequest
+680\tDevice\tController\t24ce
+680\tController\tDevice\tserviceRequest
+720\tDevice\tController\tac6c
+720\tController\tStarSensor\tserviceRequest
+760\tStarSensor\tController\t0014
+760\tController\tDevice\tserviceRequest
+800\tDevice\tController\t4fb7
+800\tController\tStarSensor\tserviceRequest
+840\tStarSensor\tController\t0014
+840\tController\tDevice\tserviceRequest
+880\tDevice\tController\t081c
+880\tController\tDevice\tserviceRequest
+920\tDevice\tController\t7fcc
+920\tController\tStarSensor\tserviceRequest
+960\tStarSensor\tController\t0014
+960\tController\tDevice\tserviceRequest
+1000\tDevice\tController\t1608
+0\tController\tStarSensor\tserviceRequest
+40\tStarSensor\tController\t0014
+40\tController\tDevice\tserviceRequest
+80\tDevice\tController\t2e1b
+80\tController\tDevice\tserviceRequest
+120\tDevice\tController\t00d5
+120\tController\tStarSensor\tserviceRequest
+160\tStarSensor\tController\t0014
+160\tController\tDevice\tserviceRequest
+200\tDevice\tController\t4926
+200\tController\tStarSensor\tserviceRequest
+240\tStarSensor\tController\t0014
+240\tController\tDevice\tserviceRequest
+280\tDevice\tController\t0000
+280\tController\tDevice\tserviceRequest
+320\tDevice\tController\t5b00
+320\tController\tStarSensor\tserviceRequest
+360\tStarSensor\tController\t0014
+360\tController\tDevice\tserviceRequest
+400\tDevice\tController\t7e38
+400\tController\tStarSensor\tserviceRequest
+440\tStarSensor\tController\t0014
+440\tController\tDevice\tserviceRequest
+480\tDevice\tController\t0000
+480\tController\tDevice\tserviceRequest
+520\tDevice\tController\t2c9a
+520\tController\tStarSensor\tserviceRequest
+560\tStarSensor\tController\t0014
+560\tController\tDevice\tserviceRequest
+600\tDevice\tController\t03c1
+600\tController\tStarSensor\tserviceRequest
+640\tStarSensor\tController\t0014
+640\tController\tDevice\tserviceRequest
+680\tDevice\tController\t64f3
+680\tController\tDevice\tserviceRequest
+720\tDevice\tController\t251b
+720\tController\tStarSensor\tserviceRequest
+760\tStarSensor\tController\t0014
+760\tController\tDevice\tserviceRequest
+800\tDevice\tController\td7bb
+800\tController\tStarSensor\tserviceRequest
+840\tStarSensor\tController\t0014
+840\tController\tDevice\tserviceRequest
+880\tDevice\tController\tbc4b
+880\tController\tDevice\tserviceRequest
+920\tDevice\tController\t0000
+920\tController\tStarSensor\tserviceRequest
+960\tStarSensor\tController\t0014
+960\tController\tDevice\tserviceRequest
+1000\tDevice\tController\t0000
+0\tController\tStarSensor\tserviceRequest
+40\tStarSensor\tController\t0014
+40\tController\tDevice\tserviceRequest
+80\tDevice\tController\t0000
+80\tController\tDevice\tserviceRequest
+120\tDevice\tController\t0000
+120\tController\tStarSensor\tserviceRequest
+160\tStarSensor\tController\t0014
+160\tController\tDevice\tserviceRequest
+200\tDevice\tController\t421d
+200\tController\tStarSensor\tserviceRequest
+240\tStarSensor\tController\t0014
+240\tController\tDevice\tserviceRequest
+280\tDevice\tController\tb543
+280\tController\tDevice\tserviceRequest
+320\tDevice\tController\t5e92
+320\tController\tStarSensor\tserviceRequest
+360\tStarSensor\tController\t0014
+360\tController\tDevice\tserviceRequest
+400\tDevice\tController\tdee7
+400\tController\tStarSensor\tserviceRequest
+440\tStarSensor\tController\t0014
+440\tController\tDevice\tserviceRequest
+480\tDevice\tController\t0000
+480\tController\tDevice\tserviceRequest
+520\tDevice\tController\t25ba
+520\tController\tStarSensor\tserviceRequest
+560\tStarSensor\tController\t0014
+560\tController\tDevice\tserviceRequest
+600\tDevice\tController\t6a39
+600\tController\tStarSensor\tserviceRequest
+640\tStarSensor\tController\t0014
+640\tController\tDevice\tserviceRequest
+680\tDevice\tController\t343e
+680\tController\tDevice\tserviceRequest
+720\tDevice\tController\t0d36
+720\tController\tStarSensor\tserviceRequest
+760\tStarSensor\tController\t0014
+760\tController\tDevice\tserviceRequest
+800\tDevice\tController\tea1c
+800\tController\tStarSensor\tserviceRequest
+840\tStarSensor\tController\t0014
+840\tController\tDevice\tserviceRequest
+880\tDevice\tController\te6fc
+880\tController\tDevice\tserviceRequest
+920\tDevice\tController\t6322
+920\tController\tStarSensor\tserviceRequest
+960\tStarSensor\tController\t0014
+960\tController\tDevice\tserviceRequest
+1000\tDevice\tController\t3cb7
+0\tController\tDevice\tserviceRequest
+40\tDevice\tController\t385c
+40\tController\tStarSensor\tserviceRequest
+80\tStarSensor\tController\t0014
+80\tController\tDevice\tserviceRequest
+120\tDevice\tController\t0000
+120\tController\tDevice\tserviceRequest
+160\tDevice\tController\tfa98
+160\tController\tStarSensor\tserviceRequest
+200\tStarSensor\tController\t0014
+200\tController\tDevice\tserviceRequest
+240\tDevice\tController\t74e6
+240\tController\tDevice\tserviceRequest
+280\tDevice\tController\tc736
+280\tController\tStarSensor\tserviceRequest
+320\tStarSensor\tController\t0014
+320\tController\tDevice\tserviceRequest
+360\tDevice\tController\t0000
+360\tController\tDevice\tserviceRequest
+400\tDevice\tController\t7e86
+400\tController\tStarSensor\tserviceRequest
+440\tStarSensor\tController\t0014
+440\tController\tDevice\tserviceRequest
+480\tDevice\tController\t61c0
+480\tController\tDevice\tserviceRequest
+520\tDevice\tController\t1e56
+520\tController\tStarSensor\tserviceRequest
+560\tStarSensor\tController\t0014
+560\tController\tDevice\tserviceRequest
+600\tDevice\tController\t1843
+600\tController\tDevice\tserviceRequest
+640\tDevice\tController\t0000
+640\tController\tStarSensor\tserviceRequest
+680\tStarSensor\tController\t0014
+680\tController\tDevice\tserviceRequest
+720\tDevice\tController\t7be1
+720\tController\tDevice\tserviceRequest
+760\tDevice\tController\t0000
+760\tController\tStarSensor\tserviceRequest
+800\tStarSensor\tController\t0014
+800\tController\tDevice\tserviceRequest
+840\tDevice\tController\td31a
+840\tController\tDevice\tserviceRequest
+880\tDevice\tController\t452f
+880\tController\tStarSensor\tserviceRequest
+920\tStarSensor\tController\t0014
+920\tController\tDevice\tserviceRequest
+960\tDevice\tController\t3d2e
+960\tController\tDevice\tserviceRequest
+1000\tDevice\tController\t141c
+1000\tController\tStarSensor\tserviceRequest
+1040\tStarSensor\tController\t0014
+1040\tController\tDevice\tserviceRequest
+1080\tDevice\tController\t6e2f
+1080\tController\tDevice\tserviceRequest
+1120\tDevice\tController\t0000
+1120\tController\tStarSensor\tserviceRequest
+1160\tStarSensor\tController\t0014
+1160\tController\tDevice\tserviceRequest
+1200\tDevice\tController\t1958
+0\tController\tDevice\tserviceRequest
+40\tDevice\tController\t6fc1
+40\tController\tStarSensor\tserviceRequest
+80\tStarSensor\tController\t0014
+80\tController\tDevice\tserviceRequest
+120\tDevice\tController\ta6e2
+120\tController\tDevice\tserviceRequest
+160\tDevice\tController\t75fb
+160\tController\tStarSensor\tserviceRequest
+200\tStarSensor\tController\t0014
+200\tController\tDevice\tserviceRequest
+240\tDevice\tController\t8bd9
+240\tController\tDevice\tserviceRequest
+280\tDevice\tController\t0000
+280\tController\tStarSensor\tserviceRequest
+320\tStarSensor\tController\t0014
+320\tController\tDevice\tserviceRequest
+360\tDevice\tController\t0000
+360\tController\tDevice\tserviceRequest
+400\tDevice\tController\t0000
+400\tController\tStarSensor\tserviceRequest
+440\tStarSensor\tController\t0014
+440\tController\tDevice\tserviceRequest
+480\tDevice\tController\t0000
+480\tController\tDevice\tserviceRequest
+520\tDevice\tController\t0000
+520\tController\tStarSensor\tserviceRequest
+560\tStarSensor\tController\t0014
+560\tController\tDevice\tserviceRequest
+600\tDevice\tController\t0000
+600\tController\tDevice\tserviceRequest
+640\tDevice\tController\t0000
+640\tController\tStarSensor\tserviceRequest
+680\tStarSensor\tController\t0014
+680\tController\tDevice\tserviceRequest
+720\tDevice\tController\t0be2
+720\tController\tDevice\tserviceRequest
+760\tDevice\tController\t0000
+760\tController\tStarSensor\tserviceRequest
+800\tStarSensor\tController\t0014
+800\tController\tDevice\tserviceRequest
+840\tDevice\tController\t4bc0
+840\tController\tDevice\tserviceRequest
+880\tDevice\tController\t05b3
+880\tController\tStarSensor\tserviceRequest
+920\tStarSensor\tController\t0014
+920\tController\tDevice\tserviceRequest
+960\tDevice\tController\t0000
+960\tController\tDevice\tserviceRequest
+1000\tDevice\tController\t0000
+1000\tController\tStarSensor\tserviceRequest
+1040\tStarSensor\tController\t0014
+1040\tController\tDevice\tserviceRequest
+1080\tDevice\tController\t6b01
+1080\tController\tDevice\tserviceRequest
+1120\tDevice\tController\tec29
+1120\tController\tStarSensor\tserviceRequest
+1160\tStarSensor\tController\t0014
+1160\tController\tDevice\tserviceRequest
+1200\tDevice\tController\t4772
+0\tController\tDevice\tserviceRequest
+40\tDevice\tController\t2bac
+40\tController\tStarSensor\tserviceRequest
+80\tStarSensor\tController\t0014
+80\tController\tDevice\tserviceRequest
+120\tDevice\tController\t7dc6
+120\tController\tDevice\tserviceRequest
+160\tDevice\tController\t0000
+160\tController\tStarSensor\tserviceRequest
+200\tStarSensor\tController\t0014
+200\tController\tDevice\tserviceRequest
+240\tDevice\tController\t6c7f
+240\tController\tDevice\tserviceRequest
+280\tDevice\tController\te3f9
+280\tController\tStarSensor\tserviceRequest
+320\tStarSensor\tController\t0014
+320\tController\tDevice\tserviceRequest
+360\tDevice\tController\t6477
+360\tController\tDevice\tserviceRequest
+400\tDevice\tController\t5730
+400\tController\tStarSensor\tserviceRequest
+440\tStarSensor\tController\t0014
+440\tController\tDevice\tserviceRequest
+480\tDevice\tController\t14ab
+480\tController\tDevice\tserviceRequest
+520\tDevice\tController\t0995
+520\tController\tStarSensor\tserviceRequest
+560\tStarSensor\tController\t0014
+560\tController\tDevice\tserviceRequest
+600\tDevice\tController\tb89c
+600\tController\tDevice\tserviceRequest
+640\tDevice\tController\t0000
+640\tController\tStarSensor\tserviceRequest
+680\tStarSensor\tController\t0014
+680\tController\tDevice\tserviceRequest
+720\tDevice\tController\tfcef
+720\tController\tDevice\tserviceRequest
+760\tDevice\tController\t1582
+760\tController\tStarSensor\tserviceRequest
+800\tStarSensor\tController\t0014
+800\tController\tDevice\tserviceRequest
+840\tDevice\tController\t4863
+840\tController\tDevice\tserviceRequest
+880\tDevice\tController\t0000
+880\tController\tStarSensor\tserviceRequest
+920\tStarSensor\tController\t0014
+920\tController\tDevice\tserviceRequest
+960\tDevice\tController\t0000
+960\tController\tDevice\tserviceRequest
+1000\tDevice\tController\tde26
+1000\tController\tStarSensor\tserviceRequest
+1040\tStarSensor\tController\t0014
+1040\tController\tDevice\tserviceRequest
+1080\tDevice\tController\t0000
+1080\tController\tDevice\tserviceRequest
+1120\tDevice\tController\t1227
+1120\tController\tStarSensor\tserviceRequest
+1160\tStarSensor\tController\t0014
+1160\tController\tDevice\tserviceRequest
+1200\tDevice\tController\t82ee
+0	Controller	Device	serviceRequest
+40	Device	Controller	26ea
+40	Controller	StarSensor	serviceRequest
+80	StarSensor	Controller	0014
+80	Controller	Device	serviceRequest
+120	Device	Controller	1b21
+120	Controller	Device	serviceRequest
+160	Device	Controller	9969
+160	Controller	StarSensor	serviceRequest
+200	StarSensor	Controller	0014
+200	Controller	Device	serviceRequest
+240	Device	Controller	1cb9
+240	Controller	Device	serviceRequest
+280	Device	Controller	89d3
+280	Controller	StarSensor	serviceRequest
+320	StarSensor	Controller	0014
+320	Controller	Device	serviceRequest
+360	Device	Controller	4ecb
+360	Controller	Device	serviceRequest
+400	Device	Controller	9f01
+400	Controller	StarSensor	serviceRequest
+440	StarSensor	Controller	0014
+440	Controller	Device	serviceRequest
+480	Device	Controller	0000
+480	Controller	Device	serviceRequest
+520	Device	Controller	bd6a
+520	Controller	StarSensor	serviceRequest
+560	StarSensor	Controller	0014
+560	Controller	Device	serviceRequest
+600	Device	Controller	5bcc
+600	Controller	Device	serviceRequest
+640	Device	Controller	8a60
+640	Controller	StarSensor	serviceRequest
+680	StarSensor	Controller	0014
+680	Controller	Device	serviceRequest
+720	Device	Controller	3d66
+720	Controller	Device	serviceRequest
+760	Device	Controller	2167
+760	Controller	StarSensor	serviceRequest
+800	StarSensor	Controller	0014
+800	Controller	Device	serviceRequest
+840	Device	Controller	0000
+840	Controller	Device	serviceRequest
+880	Device	Controller	72fb
+880	Controller	StarSensor	serviceRequest
+920	StarSensor	Controller	0014
+920	Controller	Device	serviceRequest
+960	Device	Controller	d51b
+960	Controller	Device	serviceRequest
+1000	Device	Controller	7fda
+1000	Controller	StarSensor	serviceRequest
+1040	StarSensor	Controller	0014
+1040	Controller	Device	serviceRequest
+1080	Device	Controller	768e
+1080	Controller	Device	serviceRequest
+1120	Device	Controller	0000
+1120	Controller	StarSensor	serviceRequest
+1160	StarSensor	Controller	0014
+1160	Controller	Device	serviceRequest
+1200	Device	Controller	176c
